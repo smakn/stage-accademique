@@ -111,6 +111,8 @@ p {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	justify-content:space-evenly;
+	
 }
 
 .directionColumn {
@@ -166,6 +168,10 @@ p {
 .buttonDrakGreyColor {
 	color: var(--drak-grey-color);
 	border-color: var(--drak-grey-color);
+	border-color: #E44444;
+	font-weight: 800;
+	border-width: 3px;
+	border-radius: 39px;
 }
 
 .buttonMainColor {
